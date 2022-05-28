@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 20 23:33:57 2022
-
-@author: steven174
-"""
-
 # py4e chapter 2 exercise 5
 '''Exercise 5: Write a program which prompts the user for a Celsius temperature,
 convert the temperature to Fahrenheit, and print out the converted temperature.'''
