@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 20 23:33:57 2022
-
-@author: steven174
-"""
-
 # py4e chapter 2 exercise 4
 width = 17
 height = 12.0
