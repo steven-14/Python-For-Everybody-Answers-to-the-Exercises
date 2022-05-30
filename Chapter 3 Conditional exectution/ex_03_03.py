@@ -1,6 +1,6 @@
 # Exercise 3.3: Write a program to a grade to a score
 
-score = input('Please enter a score between 0.0 and 1\n')
+score = input('Please enter a score between 0.0 and 1: ')
 try:
     floatscore = float(score)
 except:
