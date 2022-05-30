@@ -18,10 +18,3 @@ elif floatscore > 0.6:
         print('Your grade is D')
 elif floatscore < 0.6:
         print('Your grade is F')
-
-
-         
-    
-        
-    
-
