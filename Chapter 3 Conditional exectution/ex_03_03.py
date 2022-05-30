@@ -1,6 +1,6 @@
 # Exercise 3.3: Write a program to a grade to a score
 
-score = input('Enter your grade ') 
+score = input('Enter your score ') 
 fscore = float(score) 
 if fscore < 0 or fscore > 1:
     print('Error. Please enter a number between 1.0 and 2.0')
