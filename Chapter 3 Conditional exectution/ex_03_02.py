@@ -9,6 +9,7 @@ try:
     fr = float(rate)
 except:
     print("Error, please enter numeric input")
+    quit()
     
 print(fh, fr)
 if fh > 40:
