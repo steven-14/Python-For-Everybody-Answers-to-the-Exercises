@@ -1,0 +1,16 @@
+'''Exercise 3: 
+Encapsulate the previous code into a function you name count.
+then generalize it so it takes the string and letter as arguments.
+'''
+string = input('please enter a word: ')
+character = input('please enter a letter: ')
+
+def count(string, character):
+    index = 0
+    for letter in string:
+        if letter == character:
+            index = index + 1
+    return index
+
+answer = count(string, character)
+print('the letter you entered is found', answer, 'times within the word you entered')
