@@ -1,0 +1,6 @@
+#  Exercise 6.4
+# use str.count and make it find the number of time 'a' exists in the word 'banana'.
+
+txt = 'banana'
+x = txt.count('a')
+print(x)
