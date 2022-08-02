@@ -1,0 +1,14 @@
+''' 
+Exercise 1: Write a while loop starting that begins with the last character in a string
+and which reads backwards to the first char.
+Make it print each letter on it's own line, backwards.
+'''
+
+fruit = 'banana'
+index = -5
+while index < len(fruit) -5:
+    letter = fruit[index]
+    # print(index)
+    print(letter)
+    index = index + 1
+
