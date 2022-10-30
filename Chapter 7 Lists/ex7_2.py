@@ -1,9 +1,13 @@
-# Exercise 2:
+"""
+Exercise 2:
+Figure out which line of the above program is still not
+properly guarded. See if you can construct a text file which causes the
+program to fail and then modify the program so that the line is properly
+guarded and test it to make sure it handles your new text file.
 
-
-# The long solution to ex7.2 
-# Use the file name mbox-short.txt as the file name
-# Looking for result: 0.75071
+Use the file name mbox-short.txt as the file name
+Looking for result: 0.75071
+"""
 
 fname = input("Enter file name: ")
 fhand = open(fname)
