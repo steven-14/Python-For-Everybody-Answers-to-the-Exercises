@@ -1,0 +1,15 @@
+'''
+Exercise 7.1
+Exercise 1: Write a program to read through a file and print the contents of the file (line by line) 
+all in upper case. Executing the program will look as follows:
+'''
+
+# open the file
+fh = open('mbox-short.txt')
+# make a loop to print the file
+for lx in fh:
+#strip out the spaces at end and returns
+    ly = lx.rstrip()
+# make it upper case and print it
+    print(lx.upper())
+
